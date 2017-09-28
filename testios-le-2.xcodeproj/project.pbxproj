@@ -13,6 +13,8 @@
 		F172C1E21F7CDF650022C0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F172C1E01F7CDF650022C0D8 /* Main.storyboard */; };
 		F172C1E41F7CDF650022C0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F172C1E31F7CDF650022C0D8 /* Assets.xcassets */; };
 		F172C1E71F7CDF650022C0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F172C1E51F7CDF650022C0D8 /* LaunchScreen.storyboard */; };
+		F172C1F01F7CEBF90022C0D8 /* StudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F172C1EF1F7CEBF90022C0D8 /* StudentTableViewController.m */; };
+		F172C1F31F7CF3890022C0D8 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F172C1F21F7CF3890022C0D8 /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		F172C1E31F7CDF650022C0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F172C1E61F7CDF650022C0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F172C1E81F7CDF650022C0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F172C1EE1F7CEBF90022C0D8 /* StudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTableViewController.h; sourceTree = "<group>"; };
+		F172C1EF1F7CEBF90022C0D8 /* StudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTableViewController.m; sourceTree = "<group>"; };
+		F172C1F11F7CF3890022C0D8 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		F172C1F21F7CF3890022C0D8 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				F172C1E51F7CDF650022C0D8 /* LaunchScreen.storyboard */,
 				F172C1E81F7CDF650022C0D8 /* Info.plist */,
 				F172C1D71F7CDF650022C0D8 /* Supporting Files */,
+				F172C1EE1F7CEBF90022C0D8 /* StudentTableViewController.h */,
+				F172C1EF1F7CEBF90022C0D8 /* StudentTableViewController.m */,
+				F172C1F11F7CF3890022C0D8 /* EditViewController.h */,
+				F172C1F21F7CF3890022C0D8 /* EditViewController.m */,
 			);
 			path = "testios-le-2";
 			sourceTree = "<group>";
@@ -152,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F172C1DF1F7CDF650022C0D8 /* ViewController.m in Sources */,
+				F172C1F01F7CEBF90022C0D8 /* StudentTableViewController.m in Sources */,
 				F172C1DC1F7CDF650022C0D8 /* AppDelegate.m in Sources */,
 				F172C1D91F7CDF650022C0D8 /* main.m in Sources */,
+				F172C1F31F7CF3890022C0D8 /* EditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
